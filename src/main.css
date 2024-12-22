@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply custom font and Tailwind utilities using @apply */
+.etsy-font {
+  @apply text-4xl font-semibold text-orange-600; /* Tailwind utilities */
+  font-family: 'Playfair Display', serif;  /* Custom font */
+}
+
+
+.hover-effect {
+  @apply    text-black   rounded-full px-2 cursor-pointer py-2 hover:bg-gray-200 hover:scale-105 transition transform duration-300 ;
+}
+
+.sec-hover{
+  @apply   rounded-full  hover:bg-blue-300
+  transition transform duration-100 cursor-pointer
+  p-2;
+}
+
+
+
+
